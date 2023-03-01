@@ -11,6 +11,8 @@ const contract = new web3.eth.Contract(abi, contractAddress);
 let oldPrice = 999999999
 let index = 11
 
+console.log("STARTING")
+
 
 function getBusdBalanceOnFireFundContract() {
     busdContract.methods.balanceOf(contractAddress).call().then(balance => {
@@ -19,8 +21,7 @@ function getBusdBalanceOnFireFundContract() {
         
         const timestampp = Date.now();
         
-        console.log(formattedAmount)
-        console.log(index)
+        console.log("Formatted amount : " + formattedAmount + " | From formatted balance : " + formattedBalance + " | With index : " + index + " | At time : " + timestamp + " | Oldprice : " + oldPrice)
 
         if(formattedBalance < oldPrice && index == 11){
 
