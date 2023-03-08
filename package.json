@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/tijiH/FireFundPrevent/issues"
   },
-  "homepage": "https://github.com/tijiH/FireFundPrevent#readme",
-  "devDependencies": {
-    "@vercel/node": "^2.9.10"
-  }
+  "homepage": "https://github.com/tijiH/FireFundPrevent#readme"
 }
