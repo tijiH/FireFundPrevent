@@ -1,0 +1,23 @@
+{
+  "name": "firefundprevent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "-try-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tijiH/FireFundPrevent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tijiH/FireFundPrevent/issues"
+  },
+  "homepage": "https://github.com/tijiH/FireFundPrevent#readme",
+  "devDependencies": {
+    "@vercel/node": "^2.9.10"
+  }
+}
